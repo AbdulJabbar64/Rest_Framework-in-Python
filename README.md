@@ -1,5 +1,7 @@
 # Rest_Framework-in-Python
 
+I have study some Video and i make those Points
+
 # API
 
 ## How Web API Works ?
