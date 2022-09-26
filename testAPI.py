@@ -16,9 +16,9 @@ def get_data(id=None):
 
 def post_data():
     data = {
-        "name":"abdul jabbar",
+        "name":"abc",
         "roll":64,
-        "city":"kambar"
+        "city":"city123"
     }
     json_data = json.dumps(data)
     r = requests.post(url=URL, data= json_data)
@@ -29,7 +29,7 @@ def post_data():
 def update_data():
     data = {
         "id":4,
-        "name":"Abdul Jabbar",
+        "name":"xyz",
     }
     json_data = json.dumps(data)
     r = requests.put(url=URL, data= json_data)
